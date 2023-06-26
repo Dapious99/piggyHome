@@ -3,6 +3,10 @@ export default {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     extend: {
+
+      backgroungImage: {
+        'saver': "url('/src/assets/saver.jpg');",
+      },
       
       fontFamily: {
         'DM-sans': ['Duplicate Sans','DM-Sans', 'sans-serif'],

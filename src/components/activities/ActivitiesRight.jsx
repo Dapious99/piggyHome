@@ -7,7 +7,7 @@ import Target from '../../assets/target.png'
 
 const ActivitiesRight = () => {
   return (
-    <div className='grid grid-cols-2 sm:grid sm:grid-rows-4 sm:grid-flow-col gap-9 sm:px-4 px-10 py-4 w-[70%] sm:w-[100%]'>
+    <div className='grid grid-cols-2 md:gap-x-[15.5rem] md:gap-y-4 md:grid md:px-0 md:w-[100%] md:grid-cols-2 sm:grid sm:grid-rows-4 sm:grid-flow-col gap-9 sm:px-4 px-10 py-4 w-[70%] sm:w-[100%]'>
         <Card 
         image={Piggy}
         head='Automated Savings'
